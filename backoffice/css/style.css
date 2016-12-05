@@ -1,0 +1,188 @@
+/* RESET */
+html, header, nav, body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Generic */
+html{
+	background: #dddddd;
+	font-family: Verdana, serif;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	color:black;
+	text-decoration: none;
+}
+h2{
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Header */
+#mainHeader{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	font-variant: small-caps;
+	font-size: 24px;
+	background: #aaaaaa;
+	position: fixed;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 3px 15px #aaaaaa;
+}
+
+#mainBody{
+	width: 870px;
+	min-height: 600px;
+	margin: auto;
+	padding: 15px;
+	padding-top: 48px;
+	background: #ededed;
+	border: 1px solid #aaaaaa;
+	border-top: none;
+	box-shadow: 0px 5px 5px #aaaaaa, 
+        -5px 5px 5px #aaaaaa, 5px 5px 5px #aaaaaa;
+}
+/* Main Content */
+#mainContent{
+	margin-top: 60px;
+}
+
+/* SideNav */
+#sidenav ul, #sidenav li{
+	list-style-type: none;
+}
+#sidenav{
+	height: 24px;
+    margin: auto;
+    left: 50%;
+    margin-left: -280px;
+	position:fixed;
+	background: #dddddd;
+	border: 1px solid black;
+	box-shadow: 0px 3px 15px #aaaaaa;
+	font-size: 15px;
+	text-align: center;
+}
+#sidenav ul{
+    height: 24px;
+	margin: auto;
+    float: left;
+}
+#sidenav a{
+	padding-left: 5px;
+    padding-right: 5px;
+	display: block;
+	width: 130px;
+	height: 24px;
+	float: right;
+	vertical-align: middle;
+	line-height: 24px;
+	transition: 300ms linear;
+}
+#sidenav li{
+    float: left;
+}
+#sidenav a:hover {
+	background: #404040;
+	color: #FF9D00;
+	transition: 300ms linear;
+}
+
+/* Login Form */
+#cForm{
+	height: 150px;
+	width: 260px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 15px;
+	background: #ededed;
+	border: 1px solid #aaaaaa;
+	box-shadow: 0px 5px 5px #aaaaaa;
+	border-radius: 5px;
+}
+#cForm h1{
+	font-size: 18px;
+	margin: none;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+}
+#cForm form{
+	margin-top: 20px;
+}
+#cForm label{
+	display: block;
+	width: 100px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#cForm input:not([type=submit]){
+	float: right;
+	width: 150px;
+	margin-bottom: 5px;
+}
+#cForm input[type=submit]{
+	margin-top: 15px;
+	width: 100px;
+	margin-left: 80px;
+}
+
+/* Users Table */
+table {
+	font-size: 12px; 
+	margin: auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+thead{ background: #505050; color: #FF9D00;}
+td, th{
+	border: 1px solid black;
+}
+tr{ height: 18px;}
+td, th, tr{
+	padding: 5px;
+}
+tr.c0 { background: #b0b0b0; }
+tr.c1{ background: #c0c0c0; }
+tr:hover td{ background : #ffffff; }
+
+/* User Detail */
+#userDetail p, #userDetail fieldset{
+	width: 500px;
+	margin: auto;
+	padding: 10px;
+	background: #ffffff;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+#userDetail label{
+	font-weight: bold;
+	width: 370px;
+	display: block;
+	float: left;
+}
+ #userDetail strong{
+	margin-right: 20px;
+	display: block;
+	float: left;
+ }
+ #userDetail input[type="submit"]{
+	width: 150px;
+	display: block;
+	margin: auto;
+ }
+ 
+ 
+ 

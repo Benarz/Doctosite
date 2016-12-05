@@ -1,0 +1,21 @@
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+a {
+	color: #EF1F2F;
+	text-decoration: none;
+}
+
+body{
+	background-image: url("../img/bg.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+IMG.displayed{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 200px;
+}

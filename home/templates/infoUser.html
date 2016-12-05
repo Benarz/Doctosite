@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Param Decription">
+    <meta name="author" content="">
+
+    <title>Param Titre</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../style/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="../style/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="../style/css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="../style/css/custom.css" rel="stylesheet">
+	<link href="../style/css/owl.carousel.css" rel="stylesheet">
+    <link href="../style/css/owl.theme.css" rel="stylesheet">
+	<link href="../style/css/style.css" rel="stylesheet">
+	<link href="../style/css/animate.css" rel="stylesheet">
+	
+	<!-- Popup core CSS file -->
+	<link rel="stylesheet" href="../style/css/magnific-popup.css"> 
+	
+	<script src="../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+
+</head>
+
+
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">ParamSite</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+				
+					<!-- Remplacer les params par les bons contenus dans la BDD -->
+					<li class="menuItem"><a href="#paramlink1">Créer ma page</a></li>
+					<li class="menuItem"><a href="#paramlink2">Editer ma page</a></li>
+					<li class="menuItem"><a href="#paramlink3">Editer mes informations</a></li>
+					<li class="menuItem"><a href="#paramlink4">Supprimer ma page</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav>   
+<body>
+<style>
+fieldset{
+    margin: 0px;
+    border: 0px none;
+    min-width: 0px;
+    padding-right: 50px !important; 
+    padding-left: 50px !important;
+}
+</style>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Vos informations</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="nomUser">Nom</label>  
+  <div class="col-md-4">
+  <input id="nomUser" name="nomUser" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prenomUser">Prénom</label>  
+  <div class="col-md-4">
+  <input id="prenomUser" name="prenomUser" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="adresseUser">Adresse</label>  
+  <div class="col-md-5">
+  <input id="adresseUser" name="adresseUser" placeholder="Ex: 10 avenue Jean-Jaures..." class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cpUser">Code Postal</label>  
+  <div class="col-md-2">
+  <input id="cpUser" name="cpUser" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="villeUser">Ville</label>  
+  <div class="col-md-4">
+  <input id="villeUser" name="villeUser" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="paysUser">Pays</label>  
+  <div class="col-md-4">
+  <input id="paysUser" name="paysUser" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phonefixUser">Téléphone fixe</label>  
+  <div class="col-md-4">
+  <input id="phonefixUser" name="phonefixUser" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Téléphone mobile       (Ne sera pas publique)</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="convUser">Conventionné</label>
+  <div class="col-md-4">
+    <select id="convUser" name="convUser" class="form-control">
+      <option value="Secteur 1">Secteur 1</option>
+      <option value="Secteur 2">Secteur 2</option>
+      <option value="Secteur 3">Secteur 3</option>
+      <option value="Autre">Autre</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="rppsUser">N° RPPS</label>  
+  <div class="col-md-6">
+  <input id="rppsUser" name="rppsUser" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="centreUser">Êtes-vous un centre médical ?</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="centreUser-0">
+      <input name="centreUser" id="centreUser-0" value="Oui" checked="checked" type="radio">
+      Oui
+    </label> 
+    <label class="radio-inline" for="centreUser-1">
+      <input name="centreUser" id="centreUser-1" value="Non" type="radio">
+      Non
+    </label>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="titreUser">Votre titre</label>
+  <div class="col-md-4">
+    <select id="titreUser" name="titreUser" class="form-control">
+      <option value="Anesthésiologue">Anesthésiologue</option>
+      <option value="Angeiologue">Angeiologue</option>
+      <option value="Dermatologue">Dermatologue</option>
+      <option value="Vénérologue">Vénérologue</option>
+      <option value="Gynécologue">Gynécologue</option>
+      <option value="Gynécologue-Obstétricien">Gynécologue-Obstétricien</option>
+      <option value="Médecin du sport">Médecin du sport</option>
+      <option value="Médecin généraliste">Médecin généraliste</option>
+      <option value="Médecin générale-Acupuncteur">Médecin générale-Acupuncteur</option>
+      <option value="Médecin générale-Homéopathe">Médecin générale-Homéopathe</option>
+      <option value="Médecin thermale">Médecin thermale</option>
+      <option value="Ophtalmologue">Ophtalmologue</option>
+      <option value="Otho-rhino - Laryngologue">Otho-rhino - Laryngologue</option>
+      <option value="Pédiatre">Pédiatre</option>
+      <option value="Médecin Esthéticien">Médecin Esthéticien</option>
+      <option value="Psychiatre">Psychiatre</option>
+      <option value="Diététicien">Diététicien</option>
+      <option value="Nutritionniste">Nutritionniste</option>
+      <option value="Pédicure - Podologue">Pédicure - Podologue</option>
+      <option value="Endocrinologue, diabétologue, ...">Endocrinologue, diabétologue, ...</option>
+      <option value="Cardiologue">Cardiologue</option>
+      <option value="Ostéopathe">Ostéopathe</option>
+      <option value="Chirurgien dentiste">Chirurgien dentiste</option>
+      <option value="Médecin géréraliste - orientation médico psychologique">Médecin géréraliste - orientation médico psychologique</option>
+      <option value="Allergologue">Allergologue</option>
+      <option value="Sophrologue">Sophrologue</option>
+      <option value="Médecin spécialiste médecine manuelle">Médecin spécialiste médecine manuelle</option>
+      <option value="Homéopathe D.U.">Homéopathe D.U.</option>
+      <option value="Praticien en hypnose médicale D.U.">Praticien en hypnose médicale D.U.</option>
+      <option value="Praticien en hypnose périnatale">Praticien en hypnose périnatale</option>
+      <option value="Eutonie (G.Alexander)">Eutonie (G.Alexander)</option>
+      <option value="Praticien Gymnastique Abdominale Hypopressive (M.Caufriez)">Praticien Gymnastique Abdominale Hypopressive (M.Caufriez)</option>
+      <option value="Praticien Connaissance et Maitrise du Périnée (C.M.P.)">Praticien Connaissance et Maitrise du Périnée (C.M.P.)</option>
+      <option value="Praticien Approche Posturo Respiratoire (B.de Gasquet)">Praticien Approche Posturo Respiratoire (B.de Gasquet)</option>
+      <option value="Sage-femme">Sage-femme</option>
+      <option value="Praticien agréé Kousmine">Praticien agréé Kousmine</option>
+      <option value="Aromathérapeuthe">Aromathérapeuthe</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Multiple -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="specUser">Spécialités</label>
+  <div class="col-md-4">
+    <select id="specUser" name="specUser" class="form-control" multiple="multiple">
+      <option value="Anesthésiologie et réanimation chirurgicale">Anesthésiologie et réanimation chirurgicale</option>
+      <option value="Angeiologie, médecine vasculaire (artères-veines),">Angeiologie, médecine vasculaire (artères-veines),</option>
+      <option value="Dermatologie et vénérologie">Dermatologie et vénérologie</option>
+      <option value="Gynécologie médicale">Gynécologie médicale</option>
+      <option value="Gynécologie-Obstétrique">Gynécologie-Obstétrique</option>
+      <option value="Médecine du sport">Médecine du sport</option>
+      <option value="Médecine générale">Médecine générale</option>
+      <option value="Médecine générale-Acupuncture">Médecine générale-Acupuncture</option>
+      <option value="Médecine générale-Homéopathie">Médecine générale-Homéopathie</option>
+      <option value="Médecine thermale">Médecine thermale</option>
+      <option value="Ophtalmologie">Ophtalmologie</option>
+      <option value="Otho-rhino - Laryngologie">Otho-rhino - Laryngologie</option>
+      <option value="Pédiatrie">Pédiatrie</option>
+      <option value="Médecine Esthétique">Médecine Esthétique</option>
+      <option value="Psychiatrie">Psychiatrie</option>
+      <option value="Equilibration diététique">Equilibration diététique</option>
+      <option value="Conseil en nutrition">Conseil en nutrition</option>
+      <option value="Pédicure - Podologue">Pédicure - Podologue</option>
+      <option value="Endocrinologie, diabétologie, ...">Endocrinologie, diabétologie, ...</option>
+      <option value="Cardiologie - maladies vasculaires">Cardiologie - maladies vasculaires</option>
+      <option value="Ostéopathie">Ostéopathie</option>
+      <option value="Chirurgien dentiste">Chirurgien dentiste</option>
+      <option value="Médecine gérérale - orientation médico psychologique">Médecine gérérale - orientation médico psychologique</option>
+      <option value="Allergologue">Allergologue</option>
+      <option value="Sophrologue">Sophrologue</option>
+      <option value="Médecine manuelle">Médecine manuelle</option>
+      <option value="Homéopathie D.U.">Homéopathie D.U.</option>
+      <option value="Hypnose médicale D.U.">Hypnose médicale D.U.</option>
+      <option value="Hypnose périnatale">Hypnose périnatale</option>
+      <option value="Eutonie (G.Alexander)">Eutonie (G.Alexander)</option>
+      <option value="Gymnastique Abdominale Hypopressive (M.Caufriez)">Gymnastique Abdominale Hypopressive (M.Caufriez)</option>
+      <option value="Connaissance et Maitrise du Périnée (C.M.P.)">Connaissance et Maitrise du Périnée (C.M.P.)</option>
+      <option value="Approche Posturo Respiratoire (B.de Gasquet)">Approche Posturo Respiratoire (B.de Gasquet)</option>
+      <option value="Sage-femme">Sage-femme</option>
+      <option value="Praticien agréé Kousmine">Praticien agréé Kousmine</option>
+      <option value="Aromathérapie">Aromathérapie</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="introUser">Introduisez-vous</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="introUser" name="introUser"></textarea>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+    <footer>
+      
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script src="../js/bootstrap.js"></script>
+	<script src="../js/owl.carousel.js"></script>
+	<script src="../js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="../js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="../js/jquery.corner.js"></script> 
+	<script src="../js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="../js/classie.js"></script>
+	<script src="../js/uiMorphingButton_inflow.js"></script>
+	<!-- Popup core JS file -->
+	<script src="../js/jquery.magnific-popup.js"></script> 
+</body>
+
+</html>
