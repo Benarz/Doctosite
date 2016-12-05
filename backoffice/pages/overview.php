@@ -1,0 +1,12 @@
+<?php 
+// Sécurité : Vérification d'inclusion
+if (!(isset($wentThroughIndex) && $wentThroughIndex)) {
+	exit(1);
+}
+?>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor orci nec aliquam fringilla. Suspendisse tristique consequat ex, non interdum ante consectetur vitae. Integer felis ante, feugiat blandit tristique sit amet, aliquet ut augue. In placerat interdum interdum. In sed lorem pretium eros posuere venenatis. Sed sit amet posuere elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eleifend metus quis ultricies tincidunt. Etiam id felis sit amet neque dignissim ultricies et nec eros. Quisque faucibus quam ac enim luctus convallis. Vivamus posuere a erat quis vulputate. In ut eleifend mauris, sed lobortis arcu. Nulla vel ante sed felis condimentum fermentum vitae a turpis.</p><p>
+
+Morbi malesuada justo ac velit rutrum mattis. Etiam euismod sapien sit amet imperdiet efficitur. Aliquam at ex pulvinar, iaculis lacus ac, scelerisque turpis. Cras feugiat velit metus, eget elementum erat ultricies consectetur. Nam sed condimentum ex, vel auctor purus. Cras libero lorem, tincidunt ut mauris vitae, imperdiet porttitor magna. Donec imperdiet cursus nunc, nec vestibulum dui fringilla quis. Sed eleifend lorem et vulputate eleifend. Proin at nisi semper, vestibulum mauris fringilla, pharetra orci. Phasellus lacinia feugiat tellus vel euismod. Morbi efficitur dolor in libero finibus blandit.</p><p>
+
+Proin pretium urna vitae efficitur scelerisque. Aliquam sit amet magna commodo, viverra dui at, volutpat est. In quis massa tincidunt, finibus dolor sit amet, ornare urna. Fusce egestas arcu quis nisi molestie pretium in ac magna. Pellentesque blandit suscipit orci in suscipit. Vestibulum ultrices dignissim quam. Sed fermentum eleifend nulla, ac dapibus eros aliquet in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet ante in placerat condimentum. Sed id arcu lacus. Sed lobortis porta diam, in elementum augue aliquam a. Morbi quis gravida augue. Nullam sit amet tempus tellus. Fusce fringilla enim lacus, vitae finibus neque pulvinar aliquam. Etiam congue facilisis dolor, ac scelerisque tellus tempus sit amet.</p>
