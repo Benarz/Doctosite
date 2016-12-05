@@ -1,7 +1,0 @@
-sendMail:  Fichier pour envoyer le mail après le formulaire via le SMTP php.ini  (à tester sur Online.net)
-
-index.php remplace index.html: à replacer dans le .htaccess
-
-Ajout du signup/signin dans le index.php
-
-!!! Manque la connexion à la BDD / Ajout des tables dans la BDD / Test de l'envoi de mail depuis le serveur !!!
